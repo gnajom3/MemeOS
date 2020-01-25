@@ -12,24 +12,6 @@ echo -oso.    -oo:`  .o+``:s/.``     -ss:    .os+`  `+o. -so:..`       ./+osssss
 echo :ss/`    :s+.   :s+` -o+.      .+s+.    -oo-   .oo` .oo.             ``````          `````
 echo /so`    `/s:    -s+` `:o+-..-` -oo-     -o/`   .os. `:o+.``.`
  echo -+:      .:`    `:o/-``.-::-`  -o+`     ./.    `/o/-``.://:-`
-  echo                "the  most os with memes..."                  2019 Memesoft �
+  echo                "A Fun operating system"                  2019 PGDevelopments �
 echo Starting MemeOS...
 echo Files Loaded
-title MemeOS.exe - Application Error
-echo Error 0x7801cb24
-echo.
-echo Program Terminating.
-pushd %~dp0
-pushd ..
-pushd ErrorDumpReporting
-set "file=CrashSound.mp3"
-( echo Set Sound = CreateObject("WMPlayer.OCX.7"^)
-  echo Sound.URL = "%file%"
-  echo Sound.Controls.play
-  echo do while Sound.currentmedia.duration = 0
-  echo wscript.sleep 100
-  echo loop
-  echo wscript.sleep (int(Sound.currentmedia.duration^)+1^)*1000) >sound.vbs
-start /min sound.vbs
-timeout 1 /nobreak >nul
-cscript crash.vbs //NoLogo
